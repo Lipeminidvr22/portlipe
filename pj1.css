@@ -1,0 +1,52 @@
+body{
+background-color: rgb(0, 0, 0);
+height: 100;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+.txt-topo-site h1{
+    text-align: center;
+    color: #fdf0f0;
+    font-size: 45px;
+    padding: 20px;
+} 
+
+.txt-topo-site p{
+    text-align: center;
+    color: #fdf0f0;
+}
+
+header{
+    padding: 0px 4%;
+}
+
+.Projeto img{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: auto;
+    text-align: center;
+    margin-top: 40px;
+    width: 720px;
+    height: 480px;
+    background-size: cover;
+    background-position: 100% 0%;
+    transition: 3s;
+    cursor: pointer;
+    border-radius: 40px;
+    position: relative;
+}
+
+.Projeto img:hover{
+    box-shadow: 0px 0px 20px rgb(170, 1, 255);
+    transform: scale(1.03);
+}
+
+
